@@ -4,7 +4,7 @@
 **License**: GNU General Public License v3 (GPL-3.0)
 **Compatible with**: Linux Mint (Cinnamon)
 **Author**: DrMcC0y
-**Version**: 1.0
+**Version**: 1.0.1
 **Based on**: Mint-Y-Dark-Aqua
 
 ---
@@ -15,25 +15,7 @@ Mint-Relaxed is a GTK theme for Linux Mint (Cinnamon edition), based on the offi
 
 To complete the visual experience, it's highly recommended to use it together with the **Mint-Relaxed-Icons** icon set:
 
-> 🔗 *\[Link placeholder – will likely be hosted on Pling]*
-
----
-
-### 🎨 About the Icons – *Mint-Relaxed-Icons*
-
-The Mint-Relaxed-Icons set was created to complement the Mint-Relaxed theme.
-It is partially based on open source icon themes licensed under the GPL, such as:
-
-* **Breeze** – many icons were used as-is or modified
-* **Numix-Circle** – used occasionally for some application icons
-* **Papirus** – used in very small parts (e.g., one or two icons)
-* **Hicolor** – one or two icons included from this fallback theme
-
-I drew inspiration from a Breeze-based icon theme created by an author named **l4k1**, who made a beautiful folder design to Breeze theme. Unfortunately, that theme was missing many icons for Cinnamon and GNOME-based desktops. Therefore, I:
-
-* Redesigned many outdated icons to match the modern aesthetic
-* Created many icons from scratch
-* Carefully curated and unified the look to match the Cinnamon environment
+> 🔗 [Mint-Relaxed-Icons](https://www.pling.com/p/2302176/)
 
 ---
 
