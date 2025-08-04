@@ -1846,7 +1846,7 @@ switch {
     box-shadow: none; }
 
 switch {
-  background-image: -gtk-scaled(url("assets/switch-dark.png"), url("assets/switch-dark@2.png")); }
+  background-image: -gtk-scaled(url("assets/switch.png"), url("assets/switch@2.png")); }
 
 menuitem:hover switch,
 row:selected switch,
@@ -1856,10 +1856,10 @@ infobar switch {
 headerbar switch,
 .primary-toolbar switch,
 .primary-toolbar toolbar switch {
-  background-image: -gtk-scaled(url("assets/switch-header-dark.png"), url("assets/switch-header-dark@2.png")); }
+  background-image: -gtk-scaled(url("assets/switch-header.png"), url("assets/switch-header@2.png")); }
 
 switch:checked {
-  background-image: -gtk-scaled(url("assets/switch-active-dark.png"), url("assets/switch-active-dark@2.png")); }
+  background-image: -gtk-scaled(url("assets/switch-active.png"), url("assets/switch-active@2.png")); }
 
 menuitem:hover switch:checked,
 row:selected switch:checked,
@@ -1869,10 +1869,10 @@ infobar switch:checked {
 headerbar switch:checked,
 .primary-toolbar switch:checked,
 .primary-toolbar toolbar switch:checked {
-  background-image: -gtk-scaled(url("assets/switch-active-header-dark.png"), url("assets/switch-active-header-dark@2.png")); }
+  background-image: -gtk-scaled(url("assets/switch-active-header.png"), url("assets/switch-active-header@2.png")); }
 
 switch:disabled {
-  background-image: -gtk-scaled(url("assets/switch-insensitive-dark.png"), url("assets/switch-insensitive-dark@2.png")); }
+  background-image: -gtk-scaled(url("assets/switch-insensitive.png"), url("assets/switch-insensitive@2.png")); }
 
 menuitem:hover switch:disabled,
 row:selected switch:disabled,
@@ -1882,10 +1882,10 @@ infobar switch:disabled {
 headerbar switch:disabled,
 .primary-toolbar switch:disabled,
 .primary-toolbar toolbar switch:disabled {
-  background-image: -gtk-scaled(url("assets/switch-insensitive-header-dark.png"), url("assets/switch-insensitive-header-dark@2.png")); }
+  background-image: -gtk-scaled(url("assets/switch-insensitive-header.png"), url("assets/switch-insensitive-header@2.png")); }
 
 switch:checked:disabled {
-  background-image: -gtk-scaled(url("assets/switch-active-insensitive-dark.png"), url("assets/switch-active-insensitive-dark@2.png")); }
+  background-image: -gtk-scaled(url("assets/switch-active-insensitive.png"), url("assets/switch-active-insensitive@2.png")); }
 
 menuitem:hover switch:checked:disabled,
 row:selected switch:checked:disabled,
@@ -1895,15 +1895,15 @@ infobar switch:checked:disabled {
 headerbar switch:checked:disabled,
 .primary-toolbar switch:checked:disabled,
 .primary-toolbar toolbar switch:checked:disabled {
-  background-image: -gtk-scaled(url("assets/switch-active-insensitive-header-dark.png"), url("assets/switch-active-insensitive-header-dark@2.png")); }
+  background-image: -gtk-scaled(url("assets/switch-active-insensitive-header.png"), url("assets/switch-active-insensitive-header@2.png")); }
 
 .check,
 check,
 treeview.check {
-  -gtk-icon-source: -gtk-scaled(url("assets/checkbox-unchecked-dark.png"), url("assets/checkbox-unchecked-dark@2.png")); }
+  -gtk-icon-source: -gtk-scaled(url("assets/checkbox-unchecked.png"), url("assets/checkbox-unchecked@2.png")); }
 
 .osd check {
-  -gtk-icon-source: -gtk-scaled(url("assets/checkbox-unchecked-dark.png"), url("assets/checkbox-unchecked-dark@2.png")); }
+  -gtk-icon-source: -gtk-scaled(url("assets/checkbox-unchecked.png"), url("assets/checkbox-unchecked@2.png")); }
 
 .view check:selected, iconview check:selected,
 treeview.check:selected,
@@ -1914,10 +1914,10 @@ infobar check {
 .check:disabled,
 check:disabled,
 treeview.check:disabled {
-  -gtk-icon-source: -gtk-scaled(url("assets/checkbox-unchecked-insensitive-dark.png"), url("assets/checkbox-unchecked-insensitive-dark@2.png")); }
+  -gtk-icon-source: -gtk-scaled(url("assets/checkbox-unchecked-insensitive.png"), url("assets/checkbox-unchecked-insensitive@2.png")); }
 
 .osd check:disabled {
-  -gtk-icon-source: -gtk-scaled(url("assets/checkbox-unchecked-insensitive-dark.png"), url("assets/checkbox-unchecked-insensitive-dark@2.png")); }
+  -gtk-icon-source: -gtk-scaled(url("assets/checkbox-unchecked-insensitive.png"), url("assets/checkbox-unchecked-insensitive@2.png")); }
 
 .view check:disabled:selected, iconview check:disabled:selected,
 treeview.check:disabled:selected,
@@ -1928,10 +1928,10 @@ infobar check:disabled {
 .check:indeterminate,
 check:indeterminate,
 treeview.check:indeterminate {
-  -gtk-icon-source: -gtk-scaled(url("assets/checkbox-mixed-dark.png"), url("assets/checkbox-mixed-dark@2.png")); }
+  -gtk-icon-source: -gtk-scaled(url("assets/checkbox-mixed.png"), url("assets/checkbox-mixed@2.png")); }
 
 .osd check:indeterminate {
-  -gtk-icon-source: -gtk-scaled(url("assets/checkbox-mixed-dark.png"), url("assets/checkbox-mixed-dark@2.png")); }
+  -gtk-icon-source: -gtk-scaled(url("assets/checkbox-mixed.png"), url("assets/checkbox-mixed@2.png")); }
 
 .view check:indeterminate:selected, iconview check:indeterminate:selected,
 treeview.check:indeterminate:selected,
@@ -1942,10 +1942,10 @@ infobar check:indeterminate {
 .check:indeterminate:disabled,
 check:indeterminate:disabled,
 treeview.check:indeterminate:disabled {
-  -gtk-icon-source: -gtk-scaled(url("assets/checkbox-mixed-insensitive-dark.png"), url("assets/checkbox-mixed-insensitive-dark@2.png")); }
+  -gtk-icon-source: -gtk-scaled(url("assets/checkbox-mixed-insensitive.png"), url("assets/checkbox-mixed-insensitive@2.png")); }
 
 .osd check:indeterminate:disabled {
-  -gtk-icon-source: -gtk-scaled(url("assets/checkbox-mixed-insensitive-dark.png"), url("assets/checkbox-mixed-insensitive-dark@2.png")); }
+  -gtk-icon-source: -gtk-scaled(url("assets/checkbox-mixed-insensitive.png"), url("assets/checkbox-mixed-insensitive@2.png")); }
 
 .view check:indeterminate:disabled:selected, iconview check:indeterminate:disabled:selected,
 treeview.check:indeterminate:disabled:selected,
@@ -1956,10 +1956,10 @@ infobar check:indeterminate:disabled {
 .check:checked,
 check:checked,
 treeview.check:checked {
-  -gtk-icon-source: -gtk-scaled(url("assets/checkbox-checked-dark.png"), url("assets/checkbox-checked-dark@2.png")); }
+  -gtk-icon-source: -gtk-scaled(url("assets/checkbox-checked.png"), url("assets/checkbox-checked@2.png")); }
 
 .osd check:checked {
-  -gtk-icon-source: -gtk-scaled(url("assets/checkbox-checked-dark.png"), url("assets/checkbox-checked-dark@2.png")); }
+  -gtk-icon-source: -gtk-scaled(url("assets/checkbox-checked.png"), url("assets/checkbox-checked@2.png")); }
 
 .view check:checked:selected, iconview check:checked:selected,
 treeview.check:checked:selected,
@@ -1970,10 +1970,10 @@ infobar check:checked {
 .check:checked:disabled,
 check:checked:disabled,
 treeview.check:checked:disabled {
-  -gtk-icon-source: -gtk-scaled(url("assets/checkbox-checked-insensitive-dark.png"), url("assets/checkbox-checked-insensitive-dark@2.png")); }
+  -gtk-icon-source: -gtk-scaled(url("assets/checkbox-checked-insensitive.png"), url("assets/checkbox-checked-insensitive@2.png")); }
 
 .osd check:checked:disabled {
-  -gtk-icon-source: -gtk-scaled(url("assets/checkbox-checked-insensitive-dark.png"), url("assets/checkbox-checked-insensitive-dark@2.png")); }
+  -gtk-icon-source: -gtk-scaled(url("assets/checkbox-checked-insensitive.png"), url("assets/checkbox-checked-insensitive@2.png")); }
 
 .view check:checked:disabled:selected, iconview check:checked:disabled:selected,
 treeview.check:checked:disabled:selected,
@@ -1984,10 +1984,10 @@ infobar check:checked:disabled {
 .radio,
 radio,
 treeview.radio {
-  -gtk-icon-source: -gtk-scaled(url("assets/radio-unchecked-dark.png"), url("assets/radio-unchecked-dark@2.png")); }
+  -gtk-icon-source: -gtk-scaled(url("assets/radio-unchecked.png"), url("assets/radio-unchecked@2.png")); }
 
 .osd radio {
-  -gtk-icon-source: -gtk-scaled(url("assets/radio-unchecked-dark.png"), url("assets/radio-unchecked-dark@2.png")); }
+  -gtk-icon-source: -gtk-scaled(url("assets/radio-unchecked.png"), url("assets/radio-unchecked@2.png")); }
 
 .view radio:selected, iconview radio:selected,
 treeview.radio:selected,
@@ -1998,10 +1998,10 @@ infobar radio {
 .radio:disabled,
 radio:disabled,
 treeview.radio:disabled {
-  -gtk-icon-source: -gtk-scaled(url("assets/radio-unchecked-insensitive-dark.png"), url("assets/radio-unchecked-insensitive-dark@2.png")); }
+  -gtk-icon-source: -gtk-scaled(url("assets/radio-unchecked-insensitive.png"), url("assets/radio-unchecked-insensitive@2.png")); }
 
 .osd radio:disabled {
-  -gtk-icon-source: -gtk-scaled(url("assets/radio-unchecked-insensitive-dark.png"), url("assets/radio-unchecked-insensitive-dark@2.png")); }
+  -gtk-icon-source: -gtk-scaled(url("assets/radio-unchecked-insensitive.png"), url("assets/radio-unchecked-insensitive@2.png")); }
 
 .view radio:disabled:selected, iconview radio:disabled:selected,
 treeview.radio:disabled:selected,
@@ -2012,10 +2012,10 @@ infobar radio:disabled {
 .radio:indeterminate,
 radio:indeterminate,
 treeview.radio:indeterminate {
-  -gtk-icon-source: -gtk-scaled(url("assets/radio-mixed-dark.png"), url("assets/radio-mixed-dark@2.png")); }
+  -gtk-icon-source: -gtk-scaled(url("assets/radio-mixed.png"), url("assets/radio-mixed@2.png")); }
 
 .osd radio:indeterminate {
-  -gtk-icon-source: -gtk-scaled(url("assets/radio-mixed-dark.png"), url("assets/radio-mixed-dark@2.png")); }
+  -gtk-icon-source: -gtk-scaled(url("assets/radio-mixed.png"), url("assets/radio-mixed@2.png")); }
 
 .view radio:indeterminate:selected, iconview radio:indeterminate:selected,
 treeview.radio:indeterminate:selected,
@@ -2026,10 +2026,10 @@ infobar radio:indeterminate {
 .radio:indeterminate:disabled,
 radio:indeterminate:disabled,
 treeview.radio:indeterminate:disabled {
-  -gtk-icon-source: -gtk-scaled(url("assets/radio-mixed-insensitive-dark.png"), url("assets/radio-mixed-insensitive-dark@2.png")); }
+  -gtk-icon-source: -gtk-scaled(url("assets/radio-mixed-insensitive.png"), url("assets/radio-mixed-insensitive@2.png")); }
 
 .osd radio:indeterminate:disabled {
-  -gtk-icon-source: -gtk-scaled(url("assets/radio-mixed-insensitive-dark.png"), url("assets/radio-mixed-insensitive-dark@2.png")); }
+  -gtk-icon-source: -gtk-scaled(url("assets/radio-mixed-insensitive.png"), url("assets/radio-mixed-insensitive@2.png")); }
 
 .view radio:indeterminate:disabled:selected, iconview radio:indeterminate:disabled:selected,
 treeview.radio:indeterminate:disabled:selected,
@@ -2040,10 +2040,10 @@ infobar radio:indeterminate:disabled {
 .radio:checked,
 radio:checked,
 treeview.radio:checked {
-  -gtk-icon-source: -gtk-scaled(url("assets/radio-checked-dark.png"), url("assets/radio-checked-dark@2.png")); }
+  -gtk-icon-source: -gtk-scaled(url("assets/radio-checked.png"), url("assets/radio-checked@2.png")); }
 
 .osd radio:checked {
-  -gtk-icon-source: -gtk-scaled(url("assets/radio-checked-dark.png"), url("assets/radio-checked-dark@2.png")); }
+  -gtk-icon-source: -gtk-scaled(url("assets/radio-checked.png"), url("assets/radio-checked@2.png")); }
 
 .view radio:checked:selected, iconview radio:checked:selected,
 treeview.radio:checked:selected,
@@ -2054,10 +2054,10 @@ infobar radio:checked {
 .radio:checked:disabled,
 radio:checked:disabled,
 treeview.radio:checked:disabled {
-  -gtk-icon-source: -gtk-scaled(url("assets/radio-checked-insensitive-dark.png"), url("assets/radio-checked-insensitive-dark@2.png")); }
+  -gtk-icon-source: -gtk-scaled(url("assets/radio-checked-insensitive.png"), url("assets/radio-checked-insensitive@2.png")); }
 
 .osd radio:checked:disabled {
-  -gtk-icon-source: -gtk-scaled(url("assets/radio-checked-insensitive-dark.png"), url("assets/radio-checked-insensitive-dark@2.png")); }
+  -gtk-icon-source: -gtk-scaled(url("assets/radio-checked-insensitive.png"), url("assets/radio-checked-insensitive@2.png")); }
 
 .view radio:checked:disabled:selected, iconview radio:checked:disabled:selected,
 treeview.radio:checked:disabled:selected,
@@ -2066,11 +2066,11 @@ infobar radio:checked:disabled {
   -gtk-icon-source: -gtk-scaled(url("assets/radio-checked-insensitive-selected.png"), url("assets/radio-checked-insensitive-selected@2.png")); }
 
 .view.content-view.check:not(.list), iconview.content-view.check:not(.list) {
-  -gtk-icon-source: -gtk-scaled(url("assets/checkbox-selectionmode-dark.png"), url("assets/checkbox-selectionmode-dark@2.png"));
+  -gtk-icon-source: -gtk-scaled(url("assets/checkbox-selectionmode.png"), url("assets/checkbox-selectionmode@2.png"));
   background-color: transparent; }
 
 .view.content-view.check:checked:not(.list), iconview.content-view.check:checked:not(.list) {
-  -gtk-icon-source: -gtk-scaled(url("assets/checkbox-checked-selectionmode-dark.png"), url("assets/checkbox-checked-selectionmode-dark@2.png"));
+  -gtk-icon-source: -gtk-scaled(url("assets/checkbox-checked-selectionmode.png"), url("assets/checkbox-checked-selectionmode@2.png"));
   background-color: transparent; }
 
 checkbutton.text-button, radiobutton.text-button {
@@ -2957,13 +2957,13 @@ headerbar button.titlebutton,
     border-radius: 0;}
   headerbar button.titlebutton.close,
   .titlebar button.titlebutton.close {
-    background-image: -gtk-scaled(url("assets/titlebutton-close-dark.png"), url("assets/titlebutton-close-dark@2.png")); }
+    background-image: -gtk-scaled(url("assets/titlebutton-close.png"), url("assets/titlebutton-close@2.png")); }
   headerbar button.titlebutton.close:backdrop,
   .titlebar button.titlebutton.close:backdrop {
-    background-image: -gtk-scaled(url("assets/titlebutton-close-backdrop-dark.png"), url("assets/titlebutton-close-backdrop-dark@2.png")); }
+    background-image: -gtk-scaled(url("assets/titlebutton-close-backdrop.png"), url("assets/titlebutton-close-backdrop@2.png")); }
   headerbar button.titlebutton.close:hover,
   .titlebar button.titlebutton.close:hover {
-    background-image: -gtk-scaled(url("assets/titlebutton-close-hover-dark.png"), url("assets/titlebutton-close-hover-dark@2.png"));
+    background-image: -gtk-scaled(url("assets/titlebutton-close-hover.png"), url("assets/titlebutton-close-hover@2.png"));
     background-color: #d31326; }
     /* background-color: #c60c26; } */
     /* background-color: #b90426; } */
@@ -2972,13 +2972,13 @@ headerbar button.titlebutton,
     background-color: #fe385c; }
   headerbar button.titlebutton.maximize,
   .titlebar button.titlebutton.maximize {
-    background-image: -gtk-scaled(url("assets/titlebutton-max-dark.png"), url("assets/titlebutton-max-dark@2.png")); }
+    background-image: -gtk-scaled(url("assets/titlebutton-max.png"), url("assets/titlebutton-max@2.png")); }
   .maximized headerbar button.titlebutton.maximize,
   .maximized .titlebar button.titlebutton.maximize {
     background-image: -gtk-scaled(url("assets/titlebutton-restore-focused.png"), url("assets/titlebutton-restore-focused@2.png")); }
   headerbar button.titlebutton.maximize:backdrop,
   .titlebar button.titlebutton.maximize:backdrop {
-    background-image: -gtk-scaled(url("assets/titlebutton-max-backdrop-dark.png"), url("assets/titlebutton-max-backdrop-dark@2.png")); }
+    background-image: -gtk-scaled(url("assets/titlebutton-max-backdrop.png"), url("assets/titlebutton-max-backdrop@2.png")); }
   .maximized headerbar button.titlebutton.maximize:backdrop,
   .maximized .titlebar button.titlebutton.maximize:backdrop {
     background-image: -gtk-scaled(url("assets/titlebutton-restore-unfocused.png"), url("assets/titlebutton-restore-unfocused@2.png")); }    
@@ -2990,14 +2990,14 @@ headerbar button.titlebutton,
     background-color: #5a5b67; }
   headerbar button.titlebutton.minimize,
   .titlebar button.titlebutton.minimize {
-    background-image: -gtk-scaled(url("assets/titlebutton-min-dark.png"), url("assets/titlebutton-min-dark@2.png")); }
+    background-image: -gtk-scaled(url("assets/titlebutton-min.png"), url("assets/titlebutton-min@2.png")); }
   headerbar button.titlebutton.minimize:backdrop,
   .titlebar button.titlebutton.minimize:backdrop {
-    background-image: -gtk-scaled(url("assets/titlebutton-min-backdrop-dark.png"), url("assets/titlebutton-min-backdrop-dark@2.png")); }
+    background-image: -gtk-scaled(url("assets/titlebutton-min-backdrop.png"), url("assets/titlebutton-min-backdrop@2.png")); }
   headerbar button.titlebutton.minimize:hover,
   .titlebar button.titlebutton.minimize:hover {
     background-color: #484957;
-    background-image: -gtk-scaled(url("assets/titlebutton-min-hover-dark.png"), url("assets/titlebutton-min-hover-dark@2.png")); }
+    background-image: -gtk-scaled(url("assets/titlebutton-min-hover.png"), url("assets/titlebutton-min-hover@2.png")); }
   headerbar button.titlebutton.minimize:active,
   .titlebar button.titlebutton.minimize:active {
     background-color: #5a5b67; }
@@ -3095,7 +3095,7 @@ SushiFontWidget {
   box-shadow: none; }
 
 vte-terminal.terminal-screen {
-  -TerminalScreen-background-darkness: 1.0;
+  -TerminalScreen-backgroundness: 1.0;
   background-color: #3f3f3f;
   color: #fff; }
 
@@ -3118,7 +3118,7 @@ TerminalWindow .notebook .active-page .button:active, TerminalWindow .notebook .
   color: #1f9ede; }
 
 vte-terminal {
-  -TerminalScreen-background-darkness: 1.0;
+  -TerminalScreen-backgroundness: 1.0;
   background-color: #3f3f3f;
   color: #fff; }
 
@@ -3565,10 +3565,10 @@ calendar-view event.color-light label {
 calendar-view event.color-light.timed label {
   color: rgba(255, 255, 255, 0.87); }
 
-calendar-view event.color-dark label {
+calendar-view event.color label {
   color: white; }
 
-calendar-view event.color-dark.timed label {
+calendar-view event.color.timed label {
   color: rgba(255, 255, 255, 0.87); }
 
 .documents-scrolledwin.frame {
