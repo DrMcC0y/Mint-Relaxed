@@ -21,12 +21,12 @@ stage {
     box-shadow: inset 0 2px 4px rgba(69, 69, 69, 0.05); }
   .sound-button:hover, .modal-dialog-button-box .modal-dialog-button:hover, .notification-button:hover, .notification-icon-button:hover, .popup-menu #notification .notification-button:hover, .popup-menu #notification .notification-icon-button:hover {
     color: rgba(255, 255, 255, 0.87);
-    background-color: #323840;
+    background-color: rgba(53, 50, 63, 0.85);
     border: 1px solid #202020;
     box-shadow: inset 0 2px 4px rgba(82, 82, 82, 0.05); }
   .sound-button:hover:focus, .modal-dialog-button-box .modal-dialog-button:hover:focus, .notification-button:hover:focus, .notification-icon-button:hover:focus, .popup-menu #notification .notification-button:hover:focus, .popup-menu #notification .notification-icon-button:hover:focus {
     color: rgba(255, 255, 255, 0.87);
-    background-color: #323840;
+    background-color: rgba(53, 50, 63, 0.85);
     border: 1px solid #1f9ede;
     box-shadow: inset 0 2px 4px rgba(69, 69, 69, 0.05); }
   .sound-button:active, .modal-dialog-button-box .modal-dialog-button:active, .notification-button:active, .notification-icon-button:active, .popup-menu #notification .notification-button:active, .popup-menu #notification .notification-icon-button:active {
@@ -1456,7 +1456,7 @@ StScrollBar {
       icon-size: 12px; }
     .sound-player > StBoxLayout:first-child StButton:small:hover {
       color: rgba(255, 255, 255, 0.87);
-      background-color: #323840;
+      background-color: rgba(53, 50, 63, 0.85);
       border: 1px solid #202020;
       box-shadow: inset 0 2px 4px rgba(82, 82, 82, 0.05); }
     .sound-player > StBoxLayout:first-child StButton:small:active {
@@ -1487,7 +1487,7 @@ StScrollBar {
       icon-size: 16px; }
     .sound-player-overlay StButton:hover {
       color: rgba(255, 255, 255, 0.87);
-      background-color: #323840;
+      background-color: rgba(53, 50, 63, 0.85);
       border: 1px solid #202020;
       box-shadow: inset 0 2px 4px rgba(82, 82, 82, 0.05); }
     .sound-player-overlay StButton:active {
