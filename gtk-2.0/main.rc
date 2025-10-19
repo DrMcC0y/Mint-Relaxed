@@ -1456,7 +1456,7 @@ style "spinbutton" {
       file = "assets/up-background.png"
       border = { 1, 4, 5, 0 }
       stretch = TRUE
-      overlay_file = "assets/arrow-up-small-prelight.png"
+      overlay_file = "assets/arrow-up-small.png"
       overlay_stretch = FALSE
       direction = LTR
     }
