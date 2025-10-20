@@ -1141,7 +1141,8 @@ StScrollBar {
     padding: 7px;
     color: #ffffff;
     background-color: rgba(165, 164, 199, 0.3);
-    border: 1px solid transparent; }
+    border: 1px solid transparent;
+    border-radius: 2px; }
     .menu-application-button-selected:highlighted {
       font-weight: bold; }
   .menu-application-button-label:ltr {
@@ -1156,7 +1157,8 @@ StScrollBar {
     padding: 7px;
     color: #ffffff;
     background-color: rgba(165, 164, 199, 0.3);
-    border: 1px solid transparent; }
+    border: 1px solid transparent;
+    border-radius: 2px; }
   .menu-category-button-hover {
     background-color: red;
     border-radius: 2px; }
