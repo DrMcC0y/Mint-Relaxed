@@ -72,11 +72,11 @@ style "default" {
 
   # Colors
 
-  bg[NORMAL] = @base_color
-  bg[PRELIGHT] = shade (1.02, @base_color)
+  bg[NORMAL] = @bg_color
+  bg[PRELIGHT] = shade (1.02, @bg_color)
   bg[SELECTED] = @selected_bg_color
   bg[INSENSITIVE] = @insensitive_bg_color
-  bg[ACTIVE] = shade (0.9, @base_color)
+  bg[ACTIVE] = shade (0.9, @bg_color)
 
   fg[NORMAL] = @text_color
   fg[PRELIGHT] = @fg_color
@@ -91,9 +91,9 @@ style "default" {
   text[ACTIVE] = @selected_fg_color
 
   base[NORMAL] = @base_color
-  base[PRELIGHT] = shade (0.95, @base_color)
+  base[PRELIGHT] = shade (0.95, @bg_color)
   base[SELECTED] = @selected_bg_color
-  base[INSENSITIVE] = @base_color
+  base[INSENSITIVE] = @bg_color
   base[ACTIVE] = shade (0.9, @selected_bg_color)
 
   # For succinctness, all reasonable pixmap options remain here
@@ -951,8 +951,8 @@ style "entry" {
   xthickness = 6
   ythickness = 4
 
-  base[NORMAL] = @bg_color
-  base[ACTIVE] = @bg_color
+  base[NORMAL] = @base_color
+  base[ACTIVE] = @base_color
   base[INSENSITIVE] = @insensitive_bg_color
 
   engine "pixmap" {
