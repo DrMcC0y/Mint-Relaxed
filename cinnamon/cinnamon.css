@@ -40,7 +40,7 @@ stage {
     background-color: rgba(69, 69, 69, 0.55);
     box-shadow: inset 0 2px 4px rgba(69, 69, 69, 0.05); }
 
-#menu-search-entry, .popup-menu #notification StEntry {
+.prompt-dialog-password-entry, .run-dialog-entry, #menu-search-entry, .popup-menu #notification StEntry {
   padding: 7px;
   caret-size: 1px;
   selection-background-color: #1f9ede;
@@ -51,20 +51,25 @@ stage {
   background-color: rgba(63, 58, 66, 0.50);
   border: 1px solid #202020;
   box-shadow: inset 0 2px 4px rgba(64, 64, 64, 0.05); }
-  #menu-search-entry:focus, .popup-menu #notification StEntry:focus, #menu-search-entry:hover, .popup-menu #notification StEntry:hover {
+  .prompt-dialog-password-entry:focus, .run-dialog-entry:focus, #menu-search-entry:focus, .popup-menu #notification StEntry:focus, #menu-search-entry:hover, .popup-menu #notification StEntry:hover {
     color: rgba(255, 255, 255, 0.87);
     background-color: rgba(63, 58, 66, 0.50);
     border: 1px solid #1f9ede;
     box-shadow: inset 0 2px 4px rgba(64, 64, 64, 0.05); }
-  #menu-search-entry:insensitive, .popup-menu #notification StEntry:insensitive {
+  .prompt-dialog-password-entry:insensitive, .run-dialog-entry:insensitive, #menu-search-entry:insensitive, .popup-menu #notification StEntry:insensitive {
     color: rgba(255, 255, 255, 0.32);
     background-color: #383838;
     border-color: 1px solid #272727;
     box-shadow: inset 0 2px 4px rgba(56, 56, 56, 0.05); }
-  #menu-search-entry StIcon.capslock-warning, .popup-menu #notification StEntry StIcon.capslock-warning {
+  .prompt-dialog-password-entry StIcon.capslock-warning, .run-dialog-entry StIcon.capslock-warning, #menu-search-entry StIcon.capslock-warning, .popup-menu #notification StEntry StIcon.capslock-warning {
     icon-size: 16px;
     warning-color: #F27835;
     padding: 0 4px; }
+  .prompt-dialog-password-entry StLabel.hint-text, .run-dialog-entry StLabel.hint-text, #menu-search-entry StLabel.hint-text, .popup-menu #notification StEntry StLabel.hint-text {
+    color: rgba(255, 255, 255, 0.17); }
+  .prompt-dialog-password-entry StIcon.peek-password, .run-dialog-entry StIcon.peek-password, #menu-search-entry StIcon.peek-password, .popup-menu #notification StEntry StIcon.peek-password {
+    icon-size: 16px;
+    color: rgba(255, 255, 255, 0.87); }
 
 .notification StEntry {
   padding: 7px;
