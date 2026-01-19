@@ -40,7 +40,7 @@ stage {
     background-color: rgba(69, 69, 69, 0.55);
     box-shadow: inset 0 2px 4px rgba(69, 69, 69, 0.05); }
 
-.prompt-dialog-password-entry, .run-dialog-entry, #menu-search-entry, .popup-menu #notification StEntry {
+.prompt-dialog-password-entry, .run-dialog-entry, #appmenu-search-entry, #menu-search-entry, .popup-menu #notification StEntry {
   padding: 7px;
   caret-size: 1px;
   selection-background-color: #1f9ede;
@@ -51,23 +51,23 @@ stage {
   background-color: rgba(63, 58, 66, 0.50);
   border: 1px solid #202020;
   box-shadow: inset 0 2px 4px rgba(64, 64, 64, 0.05); }
-  .prompt-dialog-password-entry:focus, .run-dialog-entry:focus, #menu-search-entry:focus, .popup-menu #notification StEntry:focus, #menu-search-entry:hover, .popup-menu #notification StEntry:hover {
+  .prompt-dialog-password-entry:focus, .run-dialog-entry:focus, #appmenu-search-entry:focus, #menu-search-entry:focus, .popup-menu #notification StEntry:focus, .prompt-dialog-password-entry:hover, .run-dialog-entry:hover, #appmenu-search-entry:hover, #menu-search-entry:hover, .popup-menu #notification StEntry:hover {
     color: rgba(255, 255, 255, 0.87);
     background-color: rgba(63, 58, 66, 0.50);
     border: 1px solid #1f9ede;
     box-shadow: inset 0 2px 4px rgba(64, 64, 64, 0.05); }
-  .prompt-dialog-password-entry:insensitive, .run-dialog-entry:insensitive, #menu-search-entry:insensitive, .popup-menu #notification StEntry:insensitive {
+  .prompt-dialog-password-entry:insensitive, .run-dialog-entry:insensitive,  #appmenu-search-entry:insensitive, #menu-search-entry:insensitive, .popup-menu #notification StEntry:insensitive {
     color: rgba(255, 255, 255, 0.32);
     background-color: #383838;
     border-color: 1px solid #272727;
     box-shadow: inset 0 2px 4px rgba(56, 56, 56, 0.05); }
-  .prompt-dialog-password-entry StIcon.capslock-warning, .run-dialog-entry StIcon.capslock-warning, #menu-search-entry StIcon.capslock-warning, .popup-menu #notification StEntry StIcon.capslock-warning {
+  .prompt-dialog-password-entry StIcon.capslock-warning, .run-dialog-entry StIcon.capslock-warning, #appmenu-search-entry StIcon.capslock-warning, #menu-search-entry StIcon.capslock-warning, .popup-menu #notification StEntry StIcon.capslock-warning {
     icon-size: 16px;
     warning-color: #F27835;
     padding: 0 4px; }
-  .prompt-dialog-password-entry StLabel.hint-text, .run-dialog-entry StLabel.hint-text, #menu-search-entry StLabel.hint-text, .popup-menu #notification StEntry StLabel.hint-text {
+  .prompt-dialog-password-entry StLabel.hint-text, .run-dialog-entry StLabel.hint-text, #appmenu-search-entry StLabel.hint-text, #menu-search-entry StLabel.hint-text, .popup-menu #notification StEntry StLabel.hint-text {
     color: rgba(255, 255, 255, 0.17); }
-  .prompt-dialog-password-entry StIcon.peek-password, .run-dialog-entry StIcon.peek-password, #menu-search-entry StIcon.peek-password, .popup-menu #notification StEntry StIcon.peek-password {
+  .prompt-dialog-password-entry StIcon.peek-password, .run-dialog-entry StIcon.peek-password, #appmenu-search-entry StIcon.peek-password, #menu-search-entry StIcon.peek-password, .popup-menu #notification StEntry StIcon.peek-password {
     icon-size: 16px;
     color: rgba(255, 255, 255, 0.87); }
 
@@ -1651,18 +1651,49 @@ StScrollBar {
     color: #ffffff;
     text-shadow: none; }
 
-.user-icon {
+/* before mint 22.3 */    
+/* .user-icon {
   width: 32px;
   height: 32px;
   background-color: transparent;
   border: none;
-  border-radius: 0; }
+  border-radius: 0; } */
 
 .user-label {
   color: rgba(255, 255, 255, 0.87);
   font-size: 1em;
   font-weight: bold;
   margin: 0px; }
+
+/* mint 22.3 */
+.user-icon {
+  background-size: contain;
+  border-radius: 99px;
+  color: rgba(255, 255, 255, 0.87);
+  border-color: transparent; }
+  .user-icon StIcon {
+    border: 1px solid transparent;
+    border-radius: 99px;
+    padding: 14px; }
+  .user-icon StIcon.highlighted {
+    border: 1px solid rgba(255, 255, 255, 0.87);
+    border-radius: 99px;
+    padding: 14px; }
+  .user-icon.user-avatar {
+    border: 1px solid transparent;
+    border-radius: 99px; }
+
+.user-widget.horizontal {
+  spacing: 7px; }
+
+.user-widget.vertical {
+  spacing: 10px; }
+
+.user-widget.vertical .user-widget-label {
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.87);
+  text-align: center; }  
+/* end mint 22.3 */
 
 .applet-cornerbar {
   width: 8px;
@@ -2064,3 +2095,119 @@ StScrollBar {
   background-color: #191e25;
   border-radius: 6px;
   padding: 12px; }
+
+
+/* MINT 22.3 */
+
+.appmenu-category-button-greyed, .appmenu-category-button-selected, .appmenu-category-button, .appmenu-application-button-selected, .appmenu-application-button, .appmenu-sidebar-button {
+  padding: 7px;
+  spacing: 5px;
+  border-radius: 2px; }
+
+.appmenu-background .popup-menu-content {
+  padding: 0; }
+
+.appmenu-main-box {
+  spacing: 10px; }
+
+.appmenu-right-box {
+  spacing: 5px;
+  padding: 10px 10px; }
+
+.appmenu-categories-applications-box {
+  spacing: 15px; }
+  .appmenu-categories-applications-box:top {
+    padding-top: 5px; }
+
+.appmenu-applications-box {
+  padding-right: 5px; }
+
+.appmenu-search-box {
+  spacing: 10px; }
+
+.appmenu-sidebar {
+  padding: 15px 0px;
+  background-color: rgba(47, 43, 52, 0.5); /* same as .menu-favorites-box bg */
+  border-radius: 6px 0 0 0;
+  border-right-width: 1px;
+  border-color: rgba(116, 25, 102, 0.05); /* same as .menu-favorites-box border color */
+  spacing: 5px; }
+  .menu-top .appmenu-sidebar {
+    border-radius: 0 0 0 6px; }
+  .menu-bottom .appmenu-sidebar {
+    border-radius: 6px 0 0 0; }
+  .menu-left .appmenu-sidebar {
+    border-radius: 0; }
+  .menu-right .appmenu-sidebar {
+    border-radius: 0; }
+  .appmenu-sidebar .appmenu-system-button {
+    background-color: #30384a; } /* logout/lock buttons but inside menu sidebar*/
+    .appmenu-sidebar .appmenu-system-button-lock:hover {
+      background-color: #4b5671; }
+    .appmenu-sidebar .appmenu-system-button-logout:hover {
+      background-color: #4b5671; }
+    .appmenu-sidebar .appmenu-system-button-shutdown {
+      background-color: #30384a; }
+    .appmenu-sidebar .appmenu-system-button-shutdown:hover {
+      background-color: #4b5671; }
+
+.appmenu-system-box {
+  spacing: 10px; }
+
+.appmenu-sidebar-button {
+  padding: 4px 7px;
+  margin: 0 10px; }
+  .appmenu-sidebar-button:hover {
+    background-color: rgba(160, 175, 186, 0.3); /* menu sidebar highglight color */
+    border-color: transparent; }
+
+.appmenu-system-button {
+  color: white;
+  padding: 8.4px;
+  border: 1px solid transparent;
+  border-radius: 9999px;
+  background-color: #30384a; } /* logout/lock buttons */
+  .appmenu-system-button-shutdown {
+    background-color: #30384a; }
+  .appmenu-system-button-lock:hover {
+    background-color: #4b5671; }
+  .appmenu-system-button-logout:hover {
+    background-color: #4b5671; }
+  .appmenu-system-button-shutdown:hover {
+    background-color: #4b5671; }
+
+.appmenu-application-button-label {
+  padding: 0; }
+
+.appmenu-application-button-description {
+  color: #636363; }
+
+.appmenu-application-button:highlighted {
+  font-weight: bold; }
+
+.appmenu-application-button-selected {
+  background-color: rgba(160, 175, 186, 0.3); } /* menu highlight color */
+  .appmenu-application-button-selected:highlighted {
+    font-weight: bold; }
+
+.appmenu-category-button-label {
+  padding: 0; }
+
+.appmenu-category-button:hover {
+  background-color: #b0b0b8; }
+
+.appmenu-category-button-selected {
+  background-color: rgba(160, 175, 186, 0.3); }
+
+.appmenu-category-button-greyed {
+  color: rgba(48, 48, 48, 0.55);
+  font-style: italic; }
+  .appmenu-category-button-greyed StIcon {
+    opacity: 0.5; }
+
+.appmenu-search-entry-icon {
+  icon-size: 1em; }
+  
+.appmenu-sidebar .popup-separator-menu-item {
+  -gradient-start: rgba(190, 190, 190, 0.1);
+  -gradient-end: rgba(190, 190, 190, 0.3); } /* sidemenu - old favorites box - separator color */
