@@ -2141,15 +2141,15 @@ StScrollBar {
   .menu-right .appmenu-sidebar {
     border-radius: 0; }
   .appmenu-sidebar .appmenu-system-button {
-    background-color: #30384a; } /* logout/lock buttons but inside menu sidebar*/
+    background-color: #33384c; } /* logout/lock buttons but inside menu sidebar*/
     .appmenu-sidebar .appmenu-system-button-lock:hover {
-      background-color: #4b5671; }
+      background-color: #464c67; }
     .appmenu-sidebar .appmenu-system-button-logout:hover {
-      background-color: #4b5671; }
+      background-color: #464c67; }
     .appmenu-sidebar .appmenu-system-button-shutdown {
-      background-color: #30384a; }
+      background-color: #33384c; }
     .appmenu-sidebar .appmenu-system-button-shutdown:hover {
-      background-color: #4b5671; }
+      background-color: #464c67; }
 
 .appmenu-system-box {
   spacing: 10px; }
@@ -2166,15 +2166,15 @@ StScrollBar {
   padding: 8.4px;
   border: 1px solid transparent;
   border-radius: 9999px;
-  background-color: #30384a; } /* logout/lock buttons */
+  background-color: #33384c; } /* logout/lock buttons */
   .appmenu-system-button-shutdown {
-    background-color: #30384a; }
+    background-color: #33384c; }
   .appmenu-system-button-lock:hover {
-    background-color: #4b5671; }
+    background-color: #464c67; }
   .appmenu-system-button-logout:hover {
-    background-color: #4b5671; }
+    background-color: #464c67; }
   .appmenu-system-button-shutdown:hover {
-    background-color: #4b5671; }
+    background-color: #464c67; }
 
 .appmenu-application-button-label {
   padding: 0; }
