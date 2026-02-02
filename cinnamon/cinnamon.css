@@ -338,8 +338,8 @@ StScrollBar {
 
 .popup-separator-menu-item {
   -gradient-height: 1px;
-  -gradient-start: #202020;
-  -gradient-end: #202020;
+  -gradient-start:rgba(98, 81, 94, 0.43); /* calendar separator line */
+  -gradient-end: rgba(98, 81, 94, 0.43);
   -margin-horizontal: 0;
   height: 1px; }
 
