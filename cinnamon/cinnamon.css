@@ -1347,7 +1347,6 @@ StScrollBar {
       padding-left: 1px; }
   .grouped-window-list-item-box:hover, .grouped-window-list-item-box:focus {
     color: rgba(255, 255, 255, 0.87);
-    /* background-color: rgba(165, 164, 199, 0.3); } */
     background-color: rgba(255, 255, 255, 0.17); }
   .grouped-window-list-item-box:active, .grouped-window-list-item-box:checked {
     color: rgba(255, 255, 255, 0.87);
