@@ -1327,7 +1327,6 @@ StScrollBar {
   color: rgba(255, 255, 255, 0.67); }
   .grouped-window-list-item-box.top, .grouped-window-list-item-box.bottom {
     /* this is whole panel button with text label */
-    /* box-shadow: inset 0 -2px 0 0 #007acc; */
     /* background-image: url("common-assets/misc/overview.png");
     background-position: 10px 30px; */ 
     border-bottom-width: 2px; }
